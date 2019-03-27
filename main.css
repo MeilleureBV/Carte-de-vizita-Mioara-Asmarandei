@@ -1,0 +1,113 @@
+.profile-card {
+	background-color: hsla(0, 0%, 100%, .8);
+	border-radius: 4px;
+	box-shadow: hsla(0, 0%, 0%, 0.8) 10px 10px 80px;
+}
+.content {
+	border-top: 1px solid hsla(0, 0%, 30%, .8)
+}
+
+/* Resetare CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+/* pozitionarea */
+.profile-card {
+	width: 480px;
+	max-width: calc(100vw - 10px);
+}
+
+/* centrarea cu flexbox */
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head, .links, .contacts {
+	text-align: center;
+}
+.head, .content {
+	width: 90%;
+	margin: 0 auto;
+}
+img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	padding: 1px;
+	background-color: #666;
+	filter: grayscale(50%);
+}
+.profile-image {
+	margin-top: -60px;
+}
+ul {
+	list-style-type: none;
+	filter: grayscale(100%);
+}
+li {
+	display: inline;
+	filter: opacity(65%);
+}
+.head, .about {
+	margin-bottom: 5%;
+}
+
+.content {
+	padding: 2% 5%;
+}
+body {
+	background: url("6896.jpg") no-repeat center/cover;
+	background-size: cover;
+}
+img:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+	filter: grayscale(20%);
+}
+h1 {
+	font-family: "helvetica black", sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #802000;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+h2 {
+	padding-top: 5%;
+}
+.ocupatie {
+	font-family: "helvetica";
+	font-size: 20px;
+	margin-top: 5px;
+}
+span {
+	font-family: "helvetica";
+	font-size: 15px;
+	line-height: 30px;
+	color: #802000;
+}
+.loc {
+	font-family: "helvetica";
+	font-size: 15px;
+}
+.about {
+	font-family: "helvetica";
+	font-size: 15px;
+	line-height: 1.4;
+}
+.contact {
+	font-family: "helvetica";
+	font-size: 13px;
+	line-height: 1.4;
+	margin-bottom: 5px
+}
+.contacts a {
+	text-decoration: none;
+}
